@@ -20,46 +20,50 @@ Watch the demo video to see the extension in action:
 - Search functionality
 - Read Later integration
 
+
 ---
 
-### Prerequisites
+
+# Prerequisites
 
 1. Acknowledge [Google’s Generative AI Prohibited Uses Policy](https://policies.google.com/terms/generative-ai/use-policy).
 2. Download [Canary channel](https://www.google.com/chrome/canary/) and confirm that version is equal or newer than *131.0.6778.2*.
 
 ## Enable Gemini Nano
 
-1. Open a new tab in Chrome, go to <chrome://flags/#optimization-guide-on-device-model>
+1. Open a new tab in Chrome, go to `chrome://flags/#optimization-guide-on-device-model`
 2. Select *Enabled BypassPerfRequirement*
 
 ## Enable the Prompt API
 
-1. Open a new tab in Chrome, go to <chrome://flags/#prompt-api-for-gemini-nano>
+1. Open a new tab in Chrome, go to `chrome://flags/#prompt-api-for-gemini-nano`
 2. Select *Enabled*
 
 ## Enable the Summarization API
 
-1. Open a new tab in Chrome, go to <chrome://flags/#summarization-api-for-gemini-nano>
+1. Open a new tab in Chrome, go to `chrome://flags/#summarization-api-for-gemini-nano`
 2. Select *Enabled*
 
 ## Enable the Language Detection API
 
-1. Open a new tab in Chrome, go to <chrome://flags/#language-detection-api>
+1. Open a new tab in Chrome, go to `chrome://flags/#language-detection-api`
 2. Select *Enabled*.
 
 ## Enable the Translation API
 
-1. Open a new tab in Chrome, go to <chrome://flags/#translation-api>
+1. Open a new tab in Chrome, go to `chrome://flags/#translation-api`
 2. Select *Enabled*
 3. *Relaunch Chrome.*
 
 ## Language packs management
 
-Navigate to <chrome://on-device-translation-internals/>to manually install or uninstall language packs.
+Navigate to `chrome://on-device-translation-internals/` to manually install or uninstall language packs.
+
 
 ---
 
-### Development Steps
+
+## Development Steps
 
 1. Install dependencies:
 
@@ -79,7 +83,7 @@ npm run dev
 npm run build
 ```
 
-### Loading the Extension
+## Loading the Extension
 
 After building, you can find the extension in the `.output` directory:
 
